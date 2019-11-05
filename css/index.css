@@ -275,11 +275,10 @@ footer {
 
 
 
+body {
+	background: green;
 
-
-
-
-
+}
 
 
 
@@ -290,7 +289,6 @@ footer {
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: flex-start;
-
 	}
 
 	.box1 {
@@ -299,16 +297,13 @@ footer {
 		align-items: center;
 	}
 
-
-
+	.box2.b2 {
+		display: none;
+	}
 }
 
 @media (max-width: 500px) {
-
-	.box2 b2 {
+	/* .box2 b2 {
 		display: none;
-	}
-
-
-
+	} */
 }
